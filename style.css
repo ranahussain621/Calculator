@@ -1,0 +1,89 @@
+body {
+max-width: 100%;
+margin: auto;
+padding: auto;
+z-index: 1;
+background-color: tomato;
+}
+
+.main {
+    margin: 0 auto;
+    background-color: aqua;
+    border: 2px solid grey;
+    color: white;
+    letter-spacing: 25px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.btnClr {
+width: 99%;
+text-align: center;
+background-color: grey;
+font-weight: bold;
+margin-top: 5px;
+height: 40px;
+}
+.btnClr:hover {
+    border: 2px dotted rgb(195, 195, 212);
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.input {
+    width: 97%;
+    background-color: rgb(197, 182, 182);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    
+}
+.input:hover {
+    background-color: cyan;
+    color: black;
+    border-start-end-radius: 50px;
+}
+.firstRow, .secondRow, .thirdRow, .fourthRow{
+    margin-top: 25px;
+    text-align: center;
+height: 100px;
+
+align-items: center;
+
+}
+
+.btn, .operator{
+    align-items: center;
+    width: 70px;
+    border: 1px solid rgb(63, 41, 41);
+    height: 80px;
+    background-color: rgb(26, 55, 56);
+    color: white;
+    font-weight: 900;
+}
+    .btn, .operator:active {
+        border: 1px double slateblue;
+        border-radius: 25px;
+        background-color: tan;
+    }
+.operator {
+    background-color: rgb(167, 182, 156);
+    border: 1px dotted cyan;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+    border: 1px double yellowgreen;
+}
+.operator:hover {
+    background-color: aqua;
+    border: 1px double yellowgreen;
+    color: rgb(29, 4, 4);
+font-weight: 900px;
+}
